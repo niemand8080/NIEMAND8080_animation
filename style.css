@@ -1,0 +1,231 @@
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    overflow: hidden;
+  }
+  
+  .dot{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform-origin: -200px 50px;
+    animation: rotate, rgb;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transform: translateX(-130px);
+    z-index: 2;
+  }
+  @keyframes rotate{
+    0%{
+      transform: translateX(-130px) translate(0%);
+    }
+    20%{
+      transform: translateX(-130px) translate(1000%);
+    }
+    40%{
+      transform: translateX(-130px) translateY(1000%) translate(1000%);
+    }
+    60%{
+      transform: translateX(-130px) translateY(1000%) translate(-1000%);
+    }
+    80%{
+      transform: translateX(-130px) translateY(-1000%) translate(-1000%);
+    }
+    100%{
+      transform: translateX(-130px) translateY(-1000%) translate(1000%);
+    }
+  }
+  .d2{
+    animation-delay: 0.1s;
+  }
+  .d3{
+    animation-delay: 0.2s;
+  }
+  .d4{
+    animation-delay: 0.3s;
+  }
+  .d5{
+    animation-delay: 0.4s;
+  }
+  .d6{
+    animation-delay: 0.5s;
+  }
+  .d7{
+    animation-delay: 0.6s;
+  }
+  .d8{
+    animation-delay: 0.7s;
+  }
+  .d9{
+    animation-delay: 0.8s;
+  }
+  .d10{
+    animation-delay: 0.9s;
+  }
+  .d11{
+    animation-delay: 1s;
+  }
+  .d12{
+    animation-delay: 1.1s;
+  }
+  .d13{
+    animation-delay: 1.2s;
+  }
+  .d14{
+    animation-delay: 1.3s;
+  }
+  .d15{
+    animation-delay: 1.4s;
+  }
+  .d16{
+    animation-delay: 1.5s;
+  }
+  .d17{
+    animation-delay: 1.6s;
+  }
+  .d18{
+    animation-delay: 1.7s;
+  }
+  .d19{
+    animation-delay: 1.8s;
+  }
+  .d20{
+    animation-delay: 1.9s;
+  }
+  .dot2{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform-origin: 10px 50px;
+    animation-name: rotate2, rgb;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transform: translateX(130px);
+    z-index: 1;
+  }
+  @keyframes rotate2{
+    0%{
+      transform: translateX(130px) translate(0%);
+    }
+    20%{
+      transform: translateX(130px) translate(1000%);
+    }
+    40%{
+      transform: translateX(130px) translateY(1000%) translate(1000%);
+    }
+    60%{
+      transform: translateX(130px) translateY(1000%) translate(-1000%);
+    }
+    80%{
+      transform: translateX(130px) translateY(-1000%) translate(-1000%);
+    }
+    100%{
+      transform: translateX(130px) translateY(-1000%) translate(1000%);
+    }
+  }
+  .e1{
+    animation-delay: 2.0s;
+  }
+  .e2{
+    animation-delay: 2.1s;
+  }
+  .e3{
+    animation-delay: 2.2s;
+  }
+  .e4{
+    animation-delay: 2.3s;
+  }
+  .e5{
+    animation-delay: 2.4s;
+  }
+  .e6{
+    animation-delay: 2.5s;
+  }
+  .e7{
+    animation-delay: 2.6s;
+  }
+  .e8{
+    animation-delay: 2.7s;
+  }
+  .e9{
+    animation-delay: 2.8s;
+  }
+  .e10{
+    animation-delay: 2.9s;
+  }
+  .e11{
+    animation-delay: 3s;
+  }
+  .e12{
+    animation-delay: 3.1s;
+  }
+  .e13{
+    animation-delay: 3.2s;
+  }
+  .e14{
+    animation-delay: 3.3s;
+  }
+  .e15{
+    animation-delay: 3.4s;
+  }
+  .e16{
+    animation-delay: 3.5s;
+  }
+  .e17{
+    animation-delay: 3.6s;
+  }
+  .e18{
+    animation-delay: 3.7s;
+  }
+  .e19{
+    animation-delay: 3.8s;
+  }
+  .e20{
+    animation-delay: 3.9s;
+  }
+  @keyframes rgb{
+  100%,0%{
+      background-color: rgb(255,0,0);
+  }
+  8%{
+      background-color: rgb(255,127,0);
+  }
+  16%{
+      background-color: rgb(255,255,0);
+  }
+  25%{
+      background-color: rgb(127,255,0);
+  }
+  33%{
+      background-color: rgb(0,255,0);
+  }
+  41%{
+      background-color: rgb(0,255,127);
+  }
+  50%{
+      background-color: rgb(0,255,255);
+  }
+  58%{
+      background-color: rgb(0,127,255);
+  }
+  66%{
+      background-color: rgb(0,0,255);
+  }
+  75%{
+      background-color: rgb(127,0,255);
+  }
+  83%{
+      background-color: rgb(255,0,255);
+  }
+  91%{
+      background-color: rgb(255,0,127);
+  }}
